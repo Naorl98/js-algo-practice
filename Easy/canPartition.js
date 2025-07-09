@@ -1,3 +1,4 @@
+//O(n) solution 
 function canPartition(arr) {
   let totalProduct = 1
   let zeroCount = 0
@@ -17,8 +18,8 @@ function canPartition(arr) {
   }
   return false
 }
-
-// function canPartitionON2(arr) {
+//O(n^2) solution 
+// function canPartition(arr) {
 //   for (let i = 0; i < arr.length; i++) {
 //     const num = arr[i]
 //     let product = 1
