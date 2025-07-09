@@ -7,7 +7,7 @@ function canPartition(arr) {
       zeroCount++
       if (zeroCount > 1) return true
     }
-    else totalProduct *= num
+    totalProduct *= num
   }
   if (zeroCount === 1 ) return false
   else{
