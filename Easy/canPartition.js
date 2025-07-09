@@ -23,13 +23,9 @@ function canPartition(arr) {
 //     const num = arr[i]
 //     let product = 1
 //     for (let j = 0; j < arr.length; j++) {
-//       if (j !== i) {
-//         product *= arr[j]
-//       }
+//       if (j !== i) product *= arr[j]
 //     }
-//     if (num === product) {
-//       return true
-//     }
+//     if (num === product) return true
 //   }
 //   return false
 // }
