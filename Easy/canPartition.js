@@ -5,13 +5,11 @@ function canPartition(arr) {
   for (let num of arr) {
     if (num === 0) {
       zeroCount++
+      if (zeroCount > 1) return true
     }
-    else{
-    totalProduct *= num
-    }
+    else totalProduct *= num
   }
-  if (zeroCount > 1) return true
-  else if (zeroCount === 1 ) return false
+  if (zeroCount === 1 ) return false
   else{
   for (let num of arr) {
     if (totalProduct / num === num) return true
