@@ -11,10 +11,8 @@ function canPartition(arr) {
     totalProduct *= num
   }
   if (zeroCount === 1 ) return false
-  else{
   for (let num of arr) {
     if (totalProduct / num === num) return true
-    }
   }
   return false
 }
